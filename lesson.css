@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+    border: 1px solid black;
+    background-image: url(./1022385_wallpapers-papper-crumpled-paper-4-5000x3750_5000x3750_h.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.ad{
+    
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+.sifre{
+    
+    width: 20%;
+    margin-right: 80px;
+    
+}
+.login{
+    color: blue;
+    margin-left: 245px;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+.sign{
+    color: blue;
+    margin-left: 50px;
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 246px;
+}
+span{
+    margin-left: 18px;
+    margin-top: 10px;
+    position: absolute;
+}
+label{
+    font-size: 1.5em;
+    color: blue;
+}
+input{
+    padding: 15px;
+    width: 100%;
+    border: 1px solid blue;
+}
+.container{
+    background-color: rgb(198, 198, 193);
+    width: auto;
+    height: 100vh;
+    border: 1px solid red;
+    position: relative;
+    display: none;
+}
+.giris{
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    top: 20vh;
+    left: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    font-size: 300%;
+    color: blue;
+    margin-top: 5vh;
+}
+.about{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#email{
+    width: 80%;
+}
+#e_sifre{
+    width: 80%;
+}
+.google{
+    color: blue;
+    border: 2px solid blue;
+}
+.message{
+    width: 60%;
+    height: 50vh;
+    border: 1px solid blue;
+    margin: 0 auto;
+    background-color: white;
+}
+.esas{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     align-content: space-between;
+     background-image: url(https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    
+}
+h1{
+    margin-left: 32%;
+    color: rgb(225, 108, 23);
+}
+.box{
+    margin-top: 20px;
+    margin-left: 40%;
+    height: 5%;
+    
+}
+textarea{
+    resize: none;
+    height: 20vh;
+}
